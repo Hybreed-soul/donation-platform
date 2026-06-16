@@ -53,14 +53,12 @@ export default function App() {
   const [selectedProject, setSelectedProject] = useState(null);
   const [amount, setAmount] = useState("");
   const [paymentMethod, setPaymentMethod] = useState("");
-  const [showTelegram, setShowTelegram] = useState(false);
   const [paymentSubmitted, setPaymentSubmitted] = useState(false);
 
   function handleDonate(project) {
     setSelectedProject(project);
     setPaymentMethod("");
     setAmount("");
-    setShowTelegram(false);
     setPaymentSubmitted(false);
   }
 
@@ -71,7 +69,7 @@ export default function App() {
   return (
     <div className="app">
       <section className="hero">
-        <h1>Community Impact Foundation</h1>
+        <h1 className="logo">Community Impact Foundation</h1>
 
         <p>
           Building Stronger Communities Through Action Every donation helps
@@ -130,7 +128,6 @@ export default function App() {
               <p>
                 <strong>Bank:</strong> Zenith Bank
               </p>
-
               <p>
                 <strong>Account Name:</strong>
                 Community Impact Foundation
@@ -147,23 +144,18 @@ export default function App() {
             <div className="payment-details">
               <h3>Bitcoin Wallet</h3>
 
-              <p>bc1qexamplewallet123456789</p>
+              <p>bc1qxl97mxxe42qkvks0z77lycsnnlm9sz075hrasj</p>
             </div>
           )}
 
-          <p
+          <a
             className="telegram-link"
-            onClick={() => setShowTelegram(!showTelegram)}
+            href="https://t.me/sohiechaminitiative"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Can't make transfer? Talk to a customer agent
-          </p>
-
-          {showTelegram && (
-            <div className="telegram-box">
-              <strong>Telegram Support:</strong>
-              <p>@CommunitySupport</p>
-            </div>
-          )}
+            Need assistance? Chat with an agent on Telegram →
+          </a>
 
           {paymentMethod && (
             <button className="payment-btn" onClick={handlePayment}>
@@ -182,9 +174,14 @@ export default function App() {
             </div>
           )}
           <footer className="footer">
-            <p>© 2026 Community Impact Foundation</p>
+            <h3>Community Impact Foundation</h3>
 
-            <p>Building stronger communities together.</p>
+            <p>
+              Building stronger communities through education, nutrition, sports
+              and emergency support initiatives.
+            </p>
+
+            <p>Telegram Support: @sohiechaminitiative</p>
           </footer>
         </div>
       )}

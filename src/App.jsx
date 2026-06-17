@@ -3,17 +3,16 @@ import ProjectCard from "./components/ProjectCard";
 
 import heroImg from "./assets/hero.jpeg";
 
-import communityImg from "./assets/community.jpeg";
 import guideImg from "./assets/Guide.jpeg";
 import hi4Img from "./assets/hi4.jpeg";
 import launchingImg from "./assets/launching.jpeg";
 import visionImg from "./assets/Vision.jpeg";
-
+import communityyImg from "./assets/communityy.jpeg";
 const projects = [
   {
     id: 1,
     title: "🏀 Community Court Development",
-    image: communityImg,
+    image: communityyImg,
     goal: "$250,000",
     raised: "$152,000",
     progress: 61,

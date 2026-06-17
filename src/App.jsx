@@ -107,7 +107,13 @@ export default function App() {
           <div className="trust-badge">✓ Support Available</div>
         </div>
       </section>
-
+      <section className="projects-section">
+        <h2>Our Active Projects</h2>
+        <p>
+          Every contribution supports real initiatives that improve lives,
+          strengthen communities, and create lasting impact.
+        </p>
+      </section>
       <div className="projects-grid">
         {projects.map((project) => (
           <ProjectCard

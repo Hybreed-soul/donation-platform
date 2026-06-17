@@ -342,9 +342,11 @@ body {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 32px;
-  margin-bottom: 70px;
+  gap: 40px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
+
 .footer {
   text-align: center;
   margin-top: 80px;
@@ -372,4 +374,21 @@ body {
   .donation-panel {
     padding: 25px;
   }
+}
+.projects-section {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.projects-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.projects-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #666;
 }

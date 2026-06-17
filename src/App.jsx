@@ -1,10 +1,19 @@
 import { useState } from "react";
 import ProjectCard from "./components/ProjectCard";
 
+import heroImg from "./assets/hero.jpeg";
+
+import communityImg from "./assets/community.jpeg";
+import guideImg from "./assets/Guide.jpeg";
+import hi4Img from "./assets/hi4.jpeg";
+import launchingImg from "./assets/launching.jpeg";
+import visionImg from "./assets/Vision.jpeg";
+
 const projects = [
   {
     id: 1,
     title: "🏀 Community Court Development",
+    image: communityImg,
     goal: "$250,000",
     raised: "$152,000",
     progress: 61,
@@ -14,6 +23,7 @@ const projects = [
   {
     id: 2,
     title: "🍎 Children's Nutrition Initiative",
+    image: visionImg,
     goal: "$75,000",
     raised: "$42,000",
     progress: 56,
@@ -24,6 +34,7 @@ const projects = [
     id: 3,
     title: "👕 Clothing & Essential Needs Program",
     goal: "$50,000",
+    image: hi4Img,
     raised: "$28,000",
     progress: 56,
     description:
@@ -32,6 +43,7 @@ const projects = [
   {
     id: 4,
     title: "📚 Education & Youth Development",
+    image: launchingImg,
     goal: "$100,000",
     raised: "$68,000",
     progress: 68,
@@ -41,6 +53,7 @@ const projects = [
   {
     id: 5,
     title: "❤️ Emergency Children's Support Fund",
+    image: guideImg,
     goal: "$25,000",
     raised: "$17,500",
     progress: 70,
@@ -70,6 +83,12 @@ export default function App() {
     <div className="app">
       <section className="hero">
         <h1 className="logo">Community Impact Foundation</h1>
+
+        <img
+          src={heroImg}
+          alt="Community Impact Foundation"
+          className="hero-image"
+        />
 
         <p>
           Building Stronger Communities Through Action Every donation helps

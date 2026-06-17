@@ -1,6 +1,7 @@
 export default function ProjectCard({ project, onDonate }) {
   return (
     <div className="project-card">
+      <img src={project.image} alt={project.title} className="project-image" />
       <h2>{project.title}</h2>
 
       <p>{project.description}</p>

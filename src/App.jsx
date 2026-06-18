@@ -149,17 +149,9 @@ export default function App() {
             <div className="payment-details">
               <h3>Bank Transfer Details</h3>
 
+              <p></p>
               <p>
-                <strong>Bank:</strong> Zenith Bank
-              </p>
-              <p>
-                <strong>Account Name:</strong>
-                Community Impact Foundation
-              </p>
-
-              <p>
-                <strong>Account Number:</strong>
-                1234567890
+                <strong></strong>
               </p>
             </div>
           )}
@@ -205,7 +197,7 @@ export default function App() {
               and emergency support initiatives.
             </p>
 
-            <p>Telegram Support: @sohiechaminitiative</p>
+            <p>Telegram Support: @sophiechaminitiative</p>
           </footer>
         </div>
       )}

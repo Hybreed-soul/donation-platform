@@ -196,7 +196,7 @@ export default function App() {
 
             <p>
               <a
-                href="https://t.me/sohiechaminitiative"
+                href="https://t.me/sophiechaminitiative"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="telegram-btn"

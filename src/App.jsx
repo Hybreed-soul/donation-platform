@@ -149,18 +149,7 @@ export default function App() {
             <div className="payment-details">
               <h3>Bank Transfer Details</h3>
 
-              <p>
-                <strong>Bank:</strong> Zenith Bank
-              </p>
-              <p>
-                <strong>Account Name:</strong>
-                Community Impact Foundation
-              </p>
-
-              <p>
-                <strong>Account Number:</strong>
-                1234567890
-              </p>
+              <p>Please reach out to an agent</p>
             </div>
           )}
 

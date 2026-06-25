@@ -194,7 +194,7 @@ export default function App() {
               and emergency support initiatives.
             </p>
 
-            <p>Telegram Support: https://t.me/sophiechaminitiative</p>
+            <p>Telegram Support: https://t.me/sophiechaminitiative.com</p>
           </footer>
         </div>
       )}

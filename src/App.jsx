@@ -163,7 +163,7 @@ export default function App() {
 
           <a
             className="telegram-link"
-            href="https://t.me/sohiechaminitiative"
+            href="https://t.me/sophiechaminitiative"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -194,7 +194,16 @@ export default function App() {
               and emergency support initiatives.
             </p>
 
-            <p>Telegram Support: https://t.me/sophiechaminitiative.com</p>
+            <p>
+              <a
+                href="https://t.me/sohiechaminitiative"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="telegram-btn"
+              >
+                Contact Support on Telegram
+              </a>
+            </p>
           </footer>
         </div>
       )}

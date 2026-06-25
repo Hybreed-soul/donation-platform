@@ -392,3 +392,19 @@ body {
   line-height: 1.8;
   color: #666;
 }
+.telegram-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 24px;
+  background: #0088cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.telegram-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
